@@ -1,64 +1,68 @@
-header {
-  height: 150px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 10;
-  background-color: lightcoral;
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 1.6em;
-}
+ header {
+   height          : 150px;
+   width           : 100%;
+   position        : fixed;
+   top             : 0;
+   z-index         : 10;
+   background-color: #7BC6FF;
+   display         : flex;
+   justify-content : space-evenly;
+   font-size       : 1.6em;
+ }
 
-nav {
-  display: flex;
-  justify-content: space-evenly;
-  height: 100%;
-  width: 60%;
-}
+ .logo-wrapper {
+   width          : 200px;
+   display        : flex;
+   justify-content: center;
+   align-items    : center;
+ }
 
-nav>div {
-  height: 100%;
-  width: 200px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
+ nav {
+   display        : flex;
+   justify-content: space-evenly;
+   height         : 100%;
+   width          : 60%;
+ }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  line-height: 150px;
-  width: 100%;
-  height: 100%;
-}
+ nav>div {
+   height         : 100%;
+   width          : 200px;
+   text-align     : center;
+   display        : flex;
+   justify-content: center;
+ }
 
-.btn {
-  height: 75px;
-  width: 150px;
-  padding: 10px;
-  background-color: rgb(230, 115, 22);
-  border-radius: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 1.5em;
-}
+ nav a {
+   color          : white;
+   text-decoration: none;
+   text-align     : center;
+   line-height    : 150px;
+   width          : 100%;
+   height         : 100%;
+ }
 
-#donate {
-  margin-top: 30px;
-}
+ .btn {
+   height          : 75px;
+   width           : 150px;
+   padding         : 10px;
+   background-color: #F6FB62;
+   border-radius   : 10px;
+   text-align      : center;
+   line-height     : 75px;
+   font-size       : 0.3em;
+ }
 
+ #donate {
+   margin-top: 30px;
+ }
 
-/* 
-.library-wrapper {
-  width: 400px;
-} */
+ .library-wrapper {
+   width: 400px;
 
-nav>div:hover {
-  background-color: white;
-}
+   nav>div:hover {
+     background-color: white;
+   }
 
-nav>div:hover a {
-  color: red;
-}
+   nav>div:hover a {
+     color: red;
+   }
