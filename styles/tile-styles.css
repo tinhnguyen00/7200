@@ -2,15 +2,18 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  border: 0px
 }
 
 .tile-wrapper {
-  height: 300px;
-  width: 300px;
-  border: 15px white solid;
-  background-color: palegreen;
+  height: 100%;
+  width: 100%;
+  border: 15px solid white;
+  background-color: #7BC6FF;
   position: relative;
   font-size: 2em;
+  background-size: cover;
+  background-position: center;
 }
 
 .overlay {
@@ -47,4 +50,16 @@
   bottom: 10px;
   left: 10px;
   z-index: 20;
+}
+
+#facebook {
+  background-image: url(../media/people1.jpg)
+}
+
+#twitter {
+  background-image: url(../media/people2.jpg)
+}
+
+#youtube {
+  background-image: url(../media/people3.jpg)
 }
