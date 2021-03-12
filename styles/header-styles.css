@@ -6,11 +6,16 @@ header {
   z-index: 100;
   background-color: #53b5ff;
   display: flex;
-  justify-content: space-between;
   font-size: 1.6em;
+  justify-content: space-between;
 }
 
+.header-left {
+  display: flex;
+}
 .logo-wrapper {
+  height: 100%;
+  margin-top: 7px;
   margin-left: 30px;
   width: 200px;
   display: flex;
@@ -19,19 +24,18 @@ header {
 }
 
 nav {
-  margin-left: -300px;
+  margin-left: 20px;
   display: flex;
-  justify-content: space-evenly;
-  height: 100%;
+  width: 700px;
+  justify-content: space-between;
 }
 
 nav>div {
-  height: 100%;
-  width: 150px;
   text-align: justify;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 0.7em
 }
 
 nav a {
@@ -39,32 +43,38 @@ nav a {
   text-decoration: none;
   text-align: center;
   margin-top: 100px;
+  transition: 0.2s
 }
 
 .btn {
-  height: 75px;
-  width: 150px;
-  padding: 10px;
+  height: 75px;;
+  width: 200px;
   background-color: #F6FB62;
-  border-radius: 10px;
-  text-align: center;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   line-height: 75px;
   font-size: 1em;
+  float: right;
+  transition: 0.2s;
+  
 }
 
 #donate {
   margin-right: 30px;
-  margin-top: 30px;
+  margin-top: 40px;
+  
 }
-
-.library-wrapper {
-  width: 200px;
+.btn:hover {
+  height: 200px;
+  transform: translateY(-62px);
 }
 
 nav>div:hover {
-  background-color: white;
+  
 }
 
 nav>div:hover a {
-  color: red;
+  color: #F6FB62;
 }

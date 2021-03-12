@@ -1,11 +1,12 @@
 footer {
-  height: 200px;
+  height: 300px;
   width: 100%;
   background-color: #53b5ff;
   border-top: 15px solid white;
   color: white;
   display: flex;
   position: relative;
+  
 }
 
 footer a {
@@ -16,28 +17,33 @@ footer a {
 
 .left-wrapper {
   display: flex;
-  width: 300px;
-  height: 100%;
+  margin-top: 20px;
+  width: 280px;
+  height: 80%;
   margin-left: 30px;
+  text-transform: uppercase;
 }
 
 .sitemap-wrapper {
-  display: flex;
+  width: 100px;
   flex-direction: column;
-  width: 200px;
-  height: 80%;
   justify-content: space-between;
+  display: flex;
+  height: 200px;
+  font-size: 1em;
+
 }
 
 .right-wrapper {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: 250px;
   height: 100%;
   position: absolute;
   right: 50px;
   font-size: 1.3em;
   justify-content: space-evenly;
+  transform: translateY(-50px);
 }
 
 .middle-wrapper {
@@ -56,14 +62,15 @@ footer a {
 }
 
 .donate-wrapper {
-  margin-top: 20px;
+  margin: 20px;
+  margin-bottom: 100px;
   display: flex;
-  width: 200px;
+  width: 400px;
   justify-content: space-evenly;
 }
 
 footer i {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 footer i:hover {
@@ -74,4 +81,5 @@ footer i:hover {
 footer a:hover {
   transition: .2s ease-in;
   color: darkblue;
+
 }
