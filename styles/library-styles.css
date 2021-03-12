@@ -43,11 +43,16 @@
 }
 
 .text-overlay>div {
+  transition: ease .1s;
   text-align: center;
 }
 
-.text-overlay:hover {
+.square:hover .text-overlay {
   height: 300px;
+}
+
+.square:hover .text-overlay>div {
+  border-bottom: 1px solid white;
 }
 
 #banner3 {
@@ -100,7 +105,7 @@
   justify-content: space-between;
 }
 
-#display>div{
+#display>div {
   display: flex;
   flex-direction: column;
   width:100%;
@@ -112,7 +117,7 @@ h1 {
   margin: 0px;
   padding: 20px;
 }
- 
+
 .text {
   padding: 20px;
   padding-top: 0px;
@@ -134,5 +139,4 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
-
 

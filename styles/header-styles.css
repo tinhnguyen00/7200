@@ -59,6 +59,7 @@ nav a {
   font-size: 1em;
   float: right;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 #donate {
