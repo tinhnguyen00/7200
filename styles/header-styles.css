@@ -3,11 +3,18 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 100;
-  background-color: lightcoral;
+  z-index: 10;
+  background-color: #7BC6FF;
   display: flex;
   justify-content: space-evenly;
   font-size: 1.6em;
+}
+
+.logo-wrapper {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
@@ -38,22 +45,20 @@ nav a {
   height: 75px;
   width: 150px;
   padding: 10px;
-  background-color: rgb(230, 115, 22);
+  background-color: #F6FB62;
   border-radius: 10px;
   text-align: center;
   line-height: 75px;
-  color: white
+  font-size: 0.3em;
 }
 
 #donate {
   margin-top: 30px;
 }
 
-
-/* 
 .library-wrapper {
   width: 400px;
-} */
+}
 
 nav>div:hover {
   background-color: white;
