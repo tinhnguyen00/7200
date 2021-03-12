@@ -6,7 +6,6 @@ footer {
   color: white;
   display: flex;
   position: relative;
-  
 }
 
 footer a {
@@ -31,7 +30,6 @@ footer a {
   display: flex;
   height: 200px;
   font-size: 1em;
-
 }
 
 .right-wrapper {
@@ -53,12 +51,13 @@ footer a {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  height: 100%;
+  height: 250px;
   width: 200px;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-left: -20px;
+  margin-top: 20px;
 }
 
 .donate-wrapper {
@@ -81,5 +80,4 @@ footer i:hover {
 footer a:hover {
   transition: .2s ease-in;
   color: darkblue;
-
 }

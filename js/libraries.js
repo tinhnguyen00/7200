@@ -50,3 +50,12 @@ function display(x) {
       break;
   }
 }
+
+function hide() {
+  document.getElementById('one').style.display = 'flex';
+  document.getElementById('two').style.display = 'none';
+  document.getElementById('three').style.display = 'none';
+  document.getElementById('four').style.display = 'none';
+  document.getElementById('five').style.display = 'none';
+  document.getElementById('six').style.display = 'none';
+}

@@ -43,11 +43,16 @@
 }
 
 .text-overlay>div {
+  transition: ease .1s;
   text-align: center;
 }
 
-.text-overlay:hover {
+.square:hover .text-overlay {
   height: 300px;
+}
+
+.square:hover .text-overlay>div {
+  border-bottom: 1px solid white;
 }
 
 #banner3 {
@@ -97,14 +102,13 @@
   color: white;
   background-color: #53b5ff;
   display: flex;
-  
   justify-content: space-between;
 }
 
-#display>div{
+#display>div {
   display: flex;
   flex-direction: column;
-  }
+}
 
 h1 {
   font-size: 6em;
@@ -112,10 +116,9 @@ h1 {
   margin: 0px;
   padding: 20px;
 }
- 
+
 .text {
   padding: 20px;
   padding-top: 0px;
   font-size: 1.5em;
 }
-
