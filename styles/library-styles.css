@@ -98,7 +98,7 @@
 }
 
 #display {
-  height: 700px;
+  height: 800px;
   color: white;
   background-color: #53b5ff;
   display: flex;
@@ -108,7 +108,8 @@
 #display>div {
   display: flex;
   flex-direction: column;
-}
+  width:100%;
+  }
 
 h1 {
   font-size: 6em;
@@ -122,3 +123,20 @@ h1 {
   padding-top: 0px;
   font-size: 1.5em;
 }
+
+.image-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.image-wrapper>img {
+  border: 15px solid white;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
