@@ -1,14 +1,14 @@
- header {
-   height          : 150px;
-   width           : 100%;
-   position        : fixed;
-   top             : 0;
-   z-index         : 10;
-   background-color: #7BC6FF;
-   display         : flex;
-   justify-content : space-evenly;
-   font-size       : 1.6em;
- }
+header {
+  height: 150px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #7BC6FF;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.6em;
+}
 
  .home-wrapper {
    align-items: flex-end;
@@ -57,17 +57,18 @@
    font-size       : 1em;
  }
 
- #donate {
-   margin-top: 30px;
- }
+#donate {
+  margin-top: 30px;
+}
 
- .library-wrapper {
-   width: 400px;
+.library-wrapper {
+  width: 400px;
+}
 
-   nav>div:hover {
-     background-color: white;
-   }
+nav>div:hover {
+  background-color: white;
+}
 
-   nav>div:hover a {
-     color: red;
-   }
+nav>div:hover a {
+  color: red;
+}

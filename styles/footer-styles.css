@@ -4,9 +4,12 @@ footer {
   background-color: darkblue;
   border-top: 15px solid white;
   color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer a {
   color: white;
   text-decoration: none;
+  font-size: 1.3em;
 }

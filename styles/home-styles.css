@@ -14,3 +14,31 @@ section {
   border-bottom: none;
   box-sizing: border-box;
 }
+
+#banner2,
+#banner3 {
+  display: flex;
+}
+
+.image-wrapper {
+  height: 100%;
+  width: 40%;
+  background-color: hotpink;
+}
+
+.text-wrapper {
+  height: 100%;
+  width: 60%;
+  background-color: hotpink;
+  color: white;
+}
+
+#first-image {
+  border-right: 15px solid white;
+  box-sizing: border-box;
+}
+
+#second-image {
+  border-left: 15px solid white;
+  box-sizing: border-box;
+}
