@@ -95,5 +95,27 @@
 #display {
   height: 700px;
   color: white;
-  background-color: peachpuff;
+  background-color: #53b5ff;
+  display: flex;
+  
+  justify-content: space-between;
 }
+
+#display>div{
+  display: flex;
+  flex-direction: column;
+  }
+
+h1 {
+  font-size: 6em;
+  padding-left: 30px;
+  margin: 0px;
+  padding: 20px;
+}
+ 
+.text {
+  padding: 20px;
+  padding-top: 0px;
+  font-size: 1.5em;
+}
+
