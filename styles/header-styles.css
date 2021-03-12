@@ -3,18 +3,15 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 10;
-  background-color: #7BC6FF;
+  z-index: 100;
+  background-color: #53b5ff;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-size: 1.6em;
 }
 
-.home-wrapper {
-  align-items: flex-end;
-}
-
 .logo-wrapper {
+  margin-left: 30px;
   width: 200px;
   display: flex;
   justify-content: center;
@@ -22,15 +19,15 @@ header {
 }
 
 nav {
+  margin-left: -300px;
   display: flex;
   justify-content: space-evenly;
   height: 100%;
-  width: 60%;
 }
 
 nav>div {
   height: 100%;
-  width: 200px;
+  width: 150px;
   text-align: justify;
   display: flex;
   justify-content: center;
@@ -41,8 +38,7 @@ nav a {
   color: white;
   text-decoration: none;
   text-align: center;
-  width: 100%;
-  height: 100%;
+  margin-top: 100px;
 }
 
 .btn {
@@ -57,11 +53,12 @@ nav a {
 }
 
 #donate {
+  margin-right: 30px;
   margin-top: 30px;
 }
 
 .library-wrapper {
-  width: 400px;
+  width: 200px;
 }
 
 nav>div:hover {
