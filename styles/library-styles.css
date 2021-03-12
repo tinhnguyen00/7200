@@ -15,9 +15,10 @@
 }
 
 .square {
+  cursor: pointer;
   height: 300px;
   width: 100%;
-  border: 15px solid white;
+  border-left: 15px solid white;
   box-sizing: border-box;
   background-color: palevioletred;
   color: white;
@@ -26,6 +27,27 @@
   display: flex;
   justify-content: center;
   background-size: cover;
+  position: relative;
+}
+
+.text-overlay {
+  background-color: rgba(0, 109, 199, 0.5);
+  height: 75px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-overlay>div {
+  text-align: center;
+}
+
+.text-overlay:hover {
+  height: 300px;
 }
 
 #banner3 {
@@ -59,6 +81,7 @@
 
 #food {
   background-image: url(../media/kabalagalafood.jfif);
+  border-right: 15px solid white;
 }
 
 #two,
