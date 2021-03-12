@@ -13,6 +13,7 @@ header {
 .header-left {
   display: flex;
 }
+
 .logo-wrapper {
   height: 100%;
   margin-top: 7px;
@@ -47,7 +48,7 @@ nav a {
 }
 
 .btn {
-  height: 75px;;
+  height: 75px;
   width: 200px;
   background-color: #F6FB62;
   border-radius: 100px;
@@ -58,23 +59,18 @@ nav a {
   font-size: 1em;
   float: right;
   transition: 0.2s;
-  
 }
 
 #donate {
   margin-right: 30px;
   margin-top: 40px;
-  
 }
+
 .btn:hover {
   height: 200px;
   transform: translateY(-62px);
 }
 
-nav>div:hover {
-  
-}
-
-nav>div:hover a {
+nav a:hover {
   color: #F6FB62;
 }
