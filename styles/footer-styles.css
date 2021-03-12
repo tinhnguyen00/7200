@@ -31,6 +31,7 @@ footer a {
   display: flex;
   height: 200px;
   font-size: 1em;
+
 }
 
 .right-wrapper {
@@ -70,4 +71,15 @@ footer a {
 
 footer i {
   font-size: 2em;
+}
+
+footer i:hover {
+  transition: .2s ease-in;
+  color: darkblue;
+}
+
+footer a:hover {
+  transition: .2s ease-in;
+  color: darkblue;
+
 }
