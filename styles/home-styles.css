@@ -26,6 +26,8 @@ section {
   font-size: 4em;
   color:white;
   font-weight: bold;
+  text-shadow: 2px 1px black;
+
 
 }
 
@@ -40,7 +42,7 @@ section {
 }
 
 #banner2 > .banner-image {
-  background-image: url("../media/professional.jpg");
+  background-image: url("../media/kids.jpg");
   float: right;
   border-left: 15px white solid;
   border-right: 0;
@@ -88,7 +90,7 @@ section {
 }
 
 #banner3 > .banner-image {
-  background-image: url("../media/distribute.jpg");
+  background-image: url("../media/learning.jpg");
   background-size: cover;
   float: left;
   border-left: 0px;

@@ -25,4 +25,39 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  background-size: cover;
 }
+
+#banner3 {
+  border-top: 15px solid white;
+}
+
+#banner2 {
+  border-top: 0;
+  border-bottom: 15px solid white;
+}
+
+#kosovo-turtle {
+  background-image: url(../media/kosovo2.jfif);
+}
+
+#katwe-gorilla {
+  background-image: url(../media/katwe.jfif);
+}
+
+#nsambya {
+  background-image: url(../media/nsambya.jfif);
+}
+
+#kibuli {
+  background-image: url(../media/kibuli.jfif);
+}
+
+#kabalagala {
+  background-image: url(../media/kabalagala.jfif);
+}
+
+#food {
+  background-image: url(../media/kabalagalafood.jfif);
+}
+
