@@ -1,15 +1,64 @@
 footer {
   height: 200px;
   width: 100%;
-  background-color: darkblue;
+  background-color: #53b5ff;
   border-top: 15px solid white;
   color: white;
   display: flex;
-  justify-content: space-between;
+  position: relative;
 }
 
 footer a {
   color: white;
   text-decoration: none;
   font-size: 1.3em;
+}
+
+.left-wrapper {
+  display: flex;
+  width: 300px;
+  height: 100%;
+  margin-left: 30px;
+}
+
+.sitemap-wrapper {
+  width: 100px;
+  margin-top: 30px;
+}
+
+.right-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  right: 50px;
+  font-size: 1.3em;
+  justify-content: space-evenly;
+}
+
+.middle-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: -20px;
+}
+
+.donate-wrapper {
+  margin-top: 20px;
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+}
+
+footer i {
+  font-size: 1.5em;
 }
